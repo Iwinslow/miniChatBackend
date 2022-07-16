@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8080');
+const socket = io('https://react-socket-min.herokuapp.com/');
   const formMsj = document.getElementById('miFormulario')
   const listMsj = document.querySelector('#misMensajes')
 
